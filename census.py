@@ -14,5 +14,5 @@ with open("census.csv") as csvfile:
         pop.append(int(row[3]))
 
 plt.bar(county, pop)
-plt.xticks(rotation=45)
+plt.xticks(rotation=90)
 plt.show()
